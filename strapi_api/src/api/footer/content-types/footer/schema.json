@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "navigations1": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::navigation.navigation"
+    },
+    "title1": {
+      "type": "string"
+    },
+    "subtitle1": {
+      "type": "string"
+    },
+    "subtitle2": {
+      "type": "string"
+    },
+    "subtitle3": {
+      "type": "string"
+    },
+    "subtitle4": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.icon-item"
+    }
+  }
+}

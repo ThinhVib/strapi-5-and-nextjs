@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_table_3_columns",
+    "info": {
+        "displayName": "3-columns",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle1": {
+            "type": "string"
+        },
+        "subtitle3": {
+            "type": "string"
+        }
+    }
+}

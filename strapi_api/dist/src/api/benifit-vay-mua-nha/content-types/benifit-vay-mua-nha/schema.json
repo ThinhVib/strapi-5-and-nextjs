@@ -1,0 +1,39 @@
+{
+    "kind": "collectionType",
+    "collectionName": "benifit_vay_mua_nhas",
+    "info": {
+        "singularName": "benifit-vay-mua-nha",
+        "pluralName": "benifit-vay-mua-nhas",
+        "displayName": "benifit-vay-mua-nha",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "infor_list": {
+            "type": "component",
+            "repeatable": true,
+            "component": "table.3-columns",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "subtitle1": {
+            "type": "string"
+        },
+        "subtitle2": {
+            "type": "string"
+        }
+    }
+}

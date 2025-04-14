@@ -1,0 +1,28 @@
+{
+    "kind": "collectionType",
+    "collectionName": "sidebars",
+    "info": {
+        "singularName": "sidebar",
+        "pluralName": "sidebars",
+        "displayName": "Sidebars",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "navigations": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::navigation.navigation"
+        }
+    }
+}

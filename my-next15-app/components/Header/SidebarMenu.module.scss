@@ -1,0 +1,62 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .menu {
+    background: white;
+    width: 300px;
+    max-width: 80%;
+    height: 100%;
+    padding: 1.5rem;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    background: none;
+    font-size: 1.25rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .loginBtn {
+    background: #fdb913;
+    border: none;
+    width: 100%;
+    padding: 0.75rem;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .links {
+    .section {
+      margin-bottom: 1rem;
+  
+      p {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+  
+      li {
+        list-style: none;
+        padding: 0.25rem 0;
+        cursor: pointer;
+      }
+    }
+  }
+  

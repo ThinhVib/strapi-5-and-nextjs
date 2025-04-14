@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_vay_mua_nhas",
+  "info": {
+    "singularName": "page-vay-mua-nha",
+    "pluralName": "page-vay-mua-nhas",
+    "displayName": "page-vay-mua-nha",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "banner_img": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner-img.banner-img"
+    },
+    "benifit_vay_mua_nha": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::benifit-vay-mua-nha.benifit-vay-mua-nha"
+    }
+  }
+}
